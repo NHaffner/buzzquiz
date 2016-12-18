@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>java script quiz</title>
+	<link rel="stylesheet" type="text/css" href="quiz.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ --></head>
+<body>
+  
+<div class="jumbotron">
+  <div class="container">
+     <h1>Which reality show should you be in?  <small>which reality show should you be in? M.I.C, Towie, Geordie Shore or keeping up with the kardashians?</small></h1>
+  </div>
+</div>
+
+	<div class="radios">
+		<div class="img">
+
+		<h1 class="question">Which of these chat up lines do you think is most acceptable?</h1>
+			
+			<!-- TOWIE -->
+			<div class='radiobtn'>
+				<label>
+				<input type="radio" name="hi" class="quiz" id="q1" value="1" >Do you believe in love at first sight, or should I walk past again?</label>
+			</div>
+
+			<div class="radiobtn">
+
+
+				<!-- K -->
+					<label> <input type="radio" name="hi" class="quiz" id="q2" value="2">Is it hot in here or is it just you?</label>
+				</div>
+
+					<!-- mic -->
+					<div class="radiobtn">
+						<label>
+							<input type="radio" name="hi" class="quiz" id="q3" value="3">I seem to have lost my number, can I have yours instead?</label>
+					</div>
+
+						<!-- geordie -->
+					<div class="radiobtn">
+						<label>
+							<input type="radio" name="hi" class="quiz" id="q4" value="4">If you were a bogey, I'd pick you first. </label>
+					</div>
+
+
+					</div>
+				
+
+	</div>			
+ 
+
+<div class="header">
+  <h1> <small>Your idea of a big night out usually involves...</small></h1>
+</div>
+
+
+
+<div class="container">
+
+<!-- geordie -->
+<div class="row">
+  <div class="col-xs-6 col-lg-3 two ">
+    <button class="thumbnail piccy" value="4">
+      <img class="img-responsive a" id="kardash1" src="https://static01.nyt.com/images/2015/05/10/magazine/10jenner1_horizontal/10jenner1_horizontal-articleLarge.jpg" alt="...">
+      <p> Drinks, dancing and pizza on the way home.</p>
+    </a>
+    
+
+  </div>
+
+  <!-- mic -->
+  <div class="col-xs-6 col-lg-3 two ">
+    <button class="thumbnail piccy" value="3">
+      <img class="img-responsive a" id="kardash2" src="http://cdn.bearingarms.com/uploads/2016/10/481868694_kim-kardashian-zoom-10e8fb5f-d072-4bff-b89a-81b5bc01ae89-1.jpg" alt="...">
+      <p>Dressing up all nice and having a dance before two of your friends have an argument and break up. Again</p>
+    </button>
+  </div>
+ 
+
+<!-- k -->
+
+  <div class="col-xs-6 col-lg-3 two ">
+    <button class="thumbnail piccy" value="2">
+      <img class="img-responsive a" id="kardash3" src="http://i4.mirror.co.uk/incoming/article7184514.ece/ALTERNATES/s615b/Kylie-Jenners-NY-resolutions.jpg" alt="...">
+      <p> A big house party. </p>
+    </a>
+    </button>
+</div>
+
+<!-- towie -->
+  <div class="col-xs-6 col-lg-3 two ">
+    <button class="thumbnail piccy" value="1">
+      <img class="img-responsive a" id="kardash4" src="http://www.etonline.com/photo/2016/05/24238683/caitlyn_1280_531450756.jpg" alt="...">
+      <p> A posh dinner in with the family. Failing that a takeaway and an episode of britain's got talent. </p>
+    </a>
+   </button>
+</div>
+
+</div>
+</div>
+
+
+<div class="header">
+  <h1> <small>Which of these Miley's is your favourite Miley?.</small></h1>
+</div>
+
+<div class="three">
+<button class="btn btn-default midDiv" type="submit" value="2">Precocious and mildly rebellious, </br> Party in The USA Miley</button> <!-- k -->
+<button class="btn btn-default midDiv" type="submit" value="3">Double life loving, Hannah </br> Montana Miley</button> <!-- mic -->
+<button class="btn btn-default midDiv" type="submit" value="1">The Last Song era, long-haired and </br> Liam Hemsworth snogging Miley</button> <!-- towie -->
+<button class="btn btn-default midDiv" type="submit" value="4">Inappropriate use of a foam </br> finger Miley</button>  <!-- geordie -->
+</div>
+
+<div class="header">
+  <h1> <small>You find out your best friend's boyfriend has been cheating on her. What do you do?</small></h1>
+</div>
+
+<div class="stripeFour">
+<input type="checkbox" name="tali" class="ting" value="1">Have a go at him there and then. How very dare he.<br> <!-- towie -->
+<input type="checkbox" name="tali" class="ting"  value="2">Get the girls together and plan an elaborate scheme to get your own back. <br> <!-- k -->
+<input type="checkbox" name="tali" class="ting"  value="3">Out him for his cheaty ways in public - preferably during a big party with all his friends around to see him go red in the face<br> <!-- mic -->
+<input type="checkbox" name="tali" class="ting" value="4">Put itching powder in his undercrackers drawer and bulk buy the ice cream for a girl's night in to cry it out together. <!-- geordie -->
+</div>
+
+<div class="container">
+<h4> Your idea of the perfect snack is... </h4>
+
+<select  id="mySelect">
+  <option class="cool"  name="snack" value="1">A bag of cashews and some green olives</option> <!-- towie -->
+  <option class="cool"  name="snack" value="2">A coconut water</option> <!-- k -->
+  <option class="cool"  name="snack" value="4" >A full roast dinner with extra parsnips</option> <!-- geordie -->
+  <option class="cool"  name="snack" value="3">A plate of sausage rolls</option> <!-- mic -->
+</select>
+
+</div>
+
+<div class="jumbotron lastDiv" id="result">
+  <h1>Well Done!</h1>
+  <p>You're finished with the quiz! </p>
+  <p><a class="btn btn-primary btn-lg" href="#"  onclick="lastBit()" role="button">What reality show should I be in? </a></p>
+</div>
+
+  <script type="text/javascript" src="quiz.js"></script>
+
+ </body>
+</html>

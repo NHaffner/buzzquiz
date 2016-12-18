@@ -1,0 +1,72 @@
+.body{
+	margin: 0;
+}
+
+
+.answers{ 
+	background-color: red;
+ }
+
+ .radios{
+ 	color: white;
+ 	font-size: 20px;
+ 	text-align: center;
+ }
+
+ .header{
+ 	margin-left: 80px;
+ }
+
+ .img{
+ 	background-image: url("http://i.dailymail.co.uk/i/pix/2015/08/22/10/0BEBA36100000578-3206870-image-a-7_1440234679881.jpg");
+ 	background-size: cover;
+ 	height: 600px;
+ 	background-position: center;
+ 	width: 100%;
+ 	margin-top: -30px;
+ 	opacity: 0.85;
+ }
+
+
+
+ .row .two{
+ 	display: inline-block;
+ 	object-fit: contain;
+
+ 	}
+
+.thumbnail{
+	height: 220px;
+}
+
+.thumbnail:hover{
+	opacity: 0.3;
+}
+
+ .three{
+ 	margin-top: 10px;
+ 	margin-left: 70px;
+ }
+
+ .three .midDiv:hover{
+ 	background-color: red;
+ 	z-index: 1;	
+ }
+
+ .stripeFour{
+ 	margin-left: 70px;
+ }
+
+.lastDiv{
+	margin-top: 100px;
+	padding-left: 70px;
+}
+
+.select{
+	margin-left: 70px;
+}
+.clicked{
+		opacity: 0.3;
+
+}
+
